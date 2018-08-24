@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include audit_checklist *.css
+recursive-include audit_checklist *.csv
+recursive-include audit_checklist *.html
+recursive-include audit_checklist *.ico
+recursive-include audit_checklist *.js
+recursive-include audit_checklist *.json
+recursive-include audit_checklist *.md
+recursive-include audit_checklist *.png
+recursive-include audit_checklist *.py
+recursive-include audit_checklist *.svg
+recursive-include audit_checklist *.txt
+recursive-exclude audit_checklist *.pyc
